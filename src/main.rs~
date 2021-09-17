@@ -110,19 +110,19 @@ fn fundamental_data_types(){
 
 fn main() {
 
-  fundamental_data_types();
-  operators();
-  scope_and_shadowing();
+  //fundamental_data_types();
+  //operators();
+  //scope_and_shadowing();
 
-  unsafe
-  {
-    Z = 777;
-    println!("{} {}",Z,MEANING_OF_LIFE);
-  }
+  //unsafe
+  //{
+  //  Z = 777;
+  //  println!("{} {}",Z,MEANING_OF_LIFE);
+  //}
 
-  stack_heap();
+  //stack_heap();
 
-  heap::stack_and_heap();
+  //heap::stack_and_heap();
   comb_lock::comb_lock();
 
 }
