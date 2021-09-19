@@ -1,4 +1,5 @@
 use std::io::stdin;
+use rand::Rng;
 
 enum State {
   Locked,

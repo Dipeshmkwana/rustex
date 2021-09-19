@@ -1,5 +1,7 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
+#![allow(unused_imports)]
+#![allow(unused_must_use)]
 
 mod heap;
 mod comb_lock;
@@ -10,7 +12,7 @@ use std::mem;
 fn stack_heap(){
     // stack: memory on which push/take out in LIFI 
     // heap: long term memory, dynamix, unfixed size cloud be store there
-     
+
 }
 
 
